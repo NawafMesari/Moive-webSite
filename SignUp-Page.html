@@ -1,0 +1,64 @@
+<html>
+
+<head>
+
+    <title>Sign UP </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="SignUp_page.css">
+
+</head>
+
+<body>
+
+    <h1 class="Name">WWW.NawafMovies.com</h1>
+
+    <form id="signupForm" action="" method="GET" autocomplete="on">
+        <fieldset>
+            <legend>SignUp</legend>
+            <br>
+            <div>
+                <label>Name:</label>
+                <input type="text" name="Name" placeholder="write Your name" required>
+            </div>
+            <br>
+            <div>
+                <label>Email: </label>
+                <input type="email" name="Email" id="" required placeholder="name@Domain.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Paswoed:</label>
+                <input type="password" name="password" required minlength="8">
+            </div>
+            <br>
+            <div>
+                <label for="">confirm Paswoed:</label>
+                <input type="password" name="confirmPassword" required minlength="8">
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="Male" required><b>Male</b>
+                <input type="radio" name="Gender" value="Female"><b> Female</b>
+            </div>
+            <br>
+            <div>
+                <label for="">Date of Birth:</label>
+                <input type="date" name="DateOfBirth" id="" required>
+            </div>
+
+        </fieldset>
+        <fieldset>
+                <input type="submit" name="Send" id="Send" value="Send" >
+                <input type="reset" name="clear" id="clear" value="Clear">
+        </fieldset>
+        
+        
+        
+    </form>
+
+</body>
+
+
+
+</html>

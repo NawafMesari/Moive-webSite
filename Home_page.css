@@ -1,0 +1,262 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+}
+.Name{
+
+    text-align: center;
+    background-color: gray;
+    margin: 0px;
+    padding: 10px;
+}
+/*******************************    for navagation bar    ***********************************************/
+#navgation{
+
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+    height: 50px;
+    background-color: rgb(216, 214, 214);
+    
+   
+    
+}
+
+#navgation ul {
+    list-style: none;
+    margin: 0px;
+    
+    
+}
+
+#navgation ul li {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid rgb(148, 148, 148);
+    border-left: 1px solid rgb(148, 148, 148);
+    text-align: center;
+}
+
+#navgation ul li:hover{
+
+    background-color: rgb(78, 77, 77);
+    font-weight: bold;
+
+}
+
+#navgation ul li span {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#navgation ul li a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/* ****************************************     for sign up and login *******************************/
+#logIn{
+
+    float: right;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgb(148, 148, 148);
+    border-left: 1px solid rgb(148, 148, 148);
+
+}
+#logIn:hover{
+    background-color: rgb(78, 77, 77);
+    font-weight: bold;
+
+}
+#signUp{
+    float: right;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgb(148, 148, 148);
+    border-left: 1px solid rgb(148, 148, 148);
+}
+
+#signUp:hover{
+    background-color: rgb(78, 77, 77);
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*-----------------------  for Movies ------------------------------------*/
+
+
+#Movies:hover div{
+    display: block;
+   
+}
+
+
+#Movies div{
+    display: none;
+   
+    
+    background-color: rgb(78, 77, 77);
+    
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#Movies div ul {
+    list-style:none;
+    width: 100px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+#Movies div ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100px;
+    border-top: 1px solid rgb(148, 148, 148);
+    border-left: 0px solid rgb(148, 148, 148);
+    border-right: 0px solid rgb(148, 148, 148);
+    background-color: rgb(78, 77, 77);
+    font-weight: normal;
+}
+#Movies div ul li a{
+    text-decoration: none;
+    background-color: rgb(78, 77, 77);
+    color: white;
+
+}
+
+/****************************************    for Series ***********************************************/
+
+#Series div {
+    display: none;
+    background-color: rgb(78, 77, 77);
+    
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Series:hover div{
+    display: block;
+}
+#Series div ul {
+    list-style:none;
+    width: 100px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+#Series div ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100px;
+    border-top: 1px solid rgb(148, 148, 148);
+    border-left: 0px solid rgb(148, 148, 148);
+    border-right: 0px solid rgb(148, 148, 148);
+    background-color: rgb(78, 77, 77);
+    font-weight: normal;
+}
+#Series div ul li a{
+    text-decoration: none;
+    background-color: rgb(78, 77, 77);
+    color: white;
+
+}
+
+/****************************** for Takl Show  *********************************/
+#TalkShow div {
+    display: none;
+    background-color: rgb(78, 77, 77);
+    
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#TalkShow:hover div{
+    display: block;
+}
+#TalkShow div ul {
+    list-style:none;
+    width: 100px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+#TalkShow div ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100px;
+    border-top: 1px solid rgb(148, 148, 148);
+    border-left: 0px solid rgb(148, 148, 148);
+    border-right: 0px solid rgb(148, 148, 148);
+    background-color: rgb(78, 77, 77);
+    font-weight: normal;
+}
+#TalkShow div ul li a{
+    text-decoration: none;
+    background-color: rgb(78, 77, 77);
+    color: white;
+
+}
+
+/***************************************  for Documentaries   movies ******************************************************/
+
+#Documentaries div {
+    display: none;
+    background-color: rgb(78, 77, 77);
+    
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Documentaries:hover div{
+    display: block;
+}
+#Documentaries div ul {
+    list-style:none;
+    width: 100px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+#Documentaries div ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100px;
+    border-top: 1px solid rgb(148, 148, 148);
+    border-left: 0px solid rgb(148, 148, 148);
+    border-right: 0px solid rgb(148, 148, 148);
+    background-color: rgb(78, 77, 77);
+    font-weight: normal;
+}
+#Documentaries div ul li a{
+    text-decoration: none;
+    background-color: rgb(78, 77, 77);
+    color: white;
+
+}
+
+/******************************************   ***************************************************************/

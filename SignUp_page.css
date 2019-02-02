@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+}
+.Name{
+
+    text-align: center;
+    background-color: gray;
+    margin: 0px;
+    padding: 10px;
+}
+fieldset{
+
+    margin: 450px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+    
+}
+legend{
+    
+    border: 1px solid black;
+    font-weight: bold;
+    color: rgb(102, 97, 97);
+    font-size: 1cm;
+    margin: 2px;
+    padding: 10px;
+    
+}
+#signupForm{
+
+    margin: 0px;
+    
+}
+label{
+    font-weight: bold;
+}
+#Send{
+
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+}
+
+#Clear{
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+}
