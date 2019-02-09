@@ -1,3 +1,3 @@
 # Moive-webSite
 
-<img src="images/home-page.jpeg">
+<img src="images/home-page.jpg">
